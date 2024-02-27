@@ -1,0 +1,8 @@
+{
+    "productName": "物联网调试",
+    "files": ["./electron/main.js", "./dist"],
+    "extraFiles": ["./videos", "./cvideo"], 
+    "directories": {
+      "output": "./buileder"
+    }
+  }
