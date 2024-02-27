@@ -1,5 +1,6 @@
 // 控制应用生命周期和创建原生浏览器窗口的模组
 const { app, BrowserWindow, Menu } = require('electron')
+const server = require('../koa/server'); // 引入你的 koa 服务器文件
 const path = require('path')
 
 function createWindow() {
